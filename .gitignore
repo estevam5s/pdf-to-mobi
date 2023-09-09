@@ -1,0 +1,35 @@
+# Arquivos e diretórios gerados automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ambiente virtual
+myenv/
+venv/
+env/
+*.env
+
+# Arquivos de log e saída
+*.log
+*.out
+
+# Arquivos gerados durante a construção e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Arquivos de configuração local
+settings.ini
+
+# Diretório de saída para arquivos convertidos (pode variar dependendo do projeto)
+converted_mobi/
+
+# Ignore arquivos específicos (substitua "nome_do_arquivo" pelo nome real do arquivo)
+# nome_do_arquivo.ext
+
+# Ignore diretórios específicos (substitua "nome_do_diretorio" pelo nome real do diretório)
+# nome_do_diretorio/
