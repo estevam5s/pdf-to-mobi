@@ -17,8 +17,8 @@ env/
 *.out
 
 # Arquivos gerados durante a construção e distribuição
-build/
-dist/
+# build/
+# dist/
 *.egg-info/
 *.egg
 MANIFEST
