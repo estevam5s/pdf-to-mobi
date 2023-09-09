@@ -16,6 +16,7 @@
 - [Princípios SOLID Utilizados](#princípios-solid-utilizados)
 - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
 - [Como Usar](#como-usar)
+- [Utilizando o Arquivo Executável](#utilizando-o-arquivo-executável)
 
 ## Introdução
 
@@ -172,6 +173,38 @@ Depois, execute o script para converter um arquivo PDF em MOBI.
 ```bash
 ./run.sh
 ```
+
+## Utilizando o Arquivo Executável
+
+Você pode executar o aplicativo usando o arquivo executável gerado pelo PyInstaller. Isso permite que você execute o projeto em sistemas Windows e, em distribuições Linux como o Garuda Arch Linux, diretamente do arquivo .exe. O PyInstaller é uma ferramenta que empacota seu código Python em um executável independente.
+### Executando o Aplicativo no Garuda Arch Linux
+
+Se você estiver usando o Garuda Arch Linux, siga estas etapas para executar o aplicativo: 
+1. Navegue até o diretório `src/dist` do seu projeto:
+
+```bash
+cd /caminho/para/o/diretorio/do/projeto/src/dist
+``` 
+2. Execute o arquivo executável:
+
+Use o seguinte comando para executar o aplicativo:
+
+```bash
+./app
+```
+
+Substitua `app` pelo nome real do arquivo executável gerado pelo PyInstaller para o seu projeto. 
+3. Acompanhe a Saída:
+
+O aplicativo será executado, e qualquer saída ou mensagens relacionadas a ele serão exibidas no terminal. Verifique se o aplicativo está funcionando conforme o esperado.
+
+### Sobre o PyInstaller
+
+O PyInstaller é uma ferramenta poderosa que permite empacotar seu código Python em um único arquivo executável, tornando-o mais fácil de distribuir e executar em diferentes sistemas operacionais, incluindo o Windows e várias distribuições Linux. Ele é especialmente útil quando você deseja compartilhar seu projeto com outros usuários, pois elimina a necessidade deles instalarem o Python ou outras dependências.
+
+Ao criar um arquivo executável com o PyInstaller, certifique-se de que todas as bibliotecas usadas no projeto estejam listadas corretamente no arquivo `requirements.txt`. Dessa forma, o PyInstaller pode incluí-las no executável, garantindo que todas as dependências sejam atendidas durante a execução.---
+
+Esta seção aprimorada da documentação fornece informações detalhadas sobre como executar o aplicativo em Garuda Arch Linux usando o arquivo executável gerado pelo PyInstaller. Certifique-se de substituir `/caminho/para/o/diretorio/do/projeto` pelo caminho real para o diretório do seu projeto.
 
 Este script realiza todas as etapas, desde a criação e ativação do ambiente virtual até a execução do projeto.
 
