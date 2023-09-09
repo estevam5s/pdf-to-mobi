@@ -179,6 +179,10 @@ Depois, execute o script para converter um arquivo PDF em MOBI.
 Você pode executar o aplicativo usando o arquivo executável gerado pelo PyInstaller. Isso permite que você execute o projeto em sistemas Windows e, em distribuições Linux como o Garuda Arch Linux, diretamente do arquivo .exe. O PyInstaller é uma ferramenta que empacota seu código Python em um executável independente.
 ### Executando o Aplicativo no Garuda Arch Linux
 
+<p align="center">
+  <a href="https://exodia-os.github.io/exodia-website/"><img src="image/GIFs/logos.gif" height="200" width="200" alt="Exodia"></a>
+</p>
+
 Se você estiver usando o Garuda Arch Linux, siga estas etapas para executar o aplicativo: 
 1. Navegue até o diretório `src/dist` do seu projeto:
 
