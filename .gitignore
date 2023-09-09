@@ -9,6 +9,7 @@ __pycache__/
 myenv/
 venv/
 env/
+.venv/
 *.env
 
 # Arquivos de log e saída
