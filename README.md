@@ -9,6 +9,7 @@
 - [Pré-requisitos](#pré-requisitos)
 - [Sistemas Operacionais Principais](#sistemas-operacionais-principais)
 - [Propósito](#propósito)
+- [Baixando as libs](#baixando-as-libs)
 - [Ambiente Isolado](#ambiente-isolado)
 - [Bibliotecas Usadas](#bibliotecas-usadas)
 - [Arquitetura de Pasta e Arquivos](#arquitetura-de-pasta-e-arquivos)
@@ -48,6 +49,58 @@ Este projeto foi desenvolvido e testado principalmente no seguinte sistema opera
 ## Propósito
 
 O propósito deste projeto é oferecer uma maneira fácil e eficaz de converter arquivos PDF em MOBI para que eles possam ser lidos em dispositivos Kindle ou em aplicativos de leitura compatíveis com MOBI.
+
+## Baixando as libs
+
+### Introdução
+
+O arquivo `requirements.txt` é uma maneira eficaz de gerenciar as dependências de um projeto Python. Ele permite que você especifique as bibliotecas e suas versões exatas que são necessárias para garantir que o projeto seja executado de forma consistente em diferentes ambientes. O processo de utilização do `requirements.txt` envolve a criação, atualização e instalação das dependências listadas no arquivo.
+#### Passo 1: Criando o arquivo `requirements.txt` 
+1. Crie um arquivo chamado `requirements.txt` na raiz do seu projeto. 
+2. Liste todas as bibliotecas que seu projeto depende, uma por linha, no seguinte formato:
+
+```makefile
+biblioteca==versão
+```
+
+Por exemplo, para incluir a biblioteca `requests` na versão `2.26.0`, adicione a seguinte linha:
+
+```makefile
+requests==2.26.0
+``` 
+3. Adicione todas as outras bibliotecas utilizadas no seu projeto, especificando suas versões conforme necessário.
+#### Passo 2: Atualizando o arquivo `requirements.txt` 
+1. À medida que você adiciona ou atualiza bibliotecas em seu projeto, certifique-se de manter o arquivo `requirements.txt` atualizado. 
+2. Sempre especifique versões exatas das bibliotecas para garantir a consistência em diferentes ambientes. Você pode usar comandos como `pip freeze` para gerar uma lista das bibliotecas atualizadas em seu ambiente virtual e copiá-las para o arquivo `requirements.txt`.
+#### Passo 3: Instalando as dependências 
+1. Antes de executar o projeto em um novo ambiente, certifique-se de que o Python e o gerenciador de pacotes `pip` estejam instalados. 
+2. Crie um ambiente virtual Python usando `venv`, `virtualenv` ou outro método de sua escolha:
+
+```bash
+python -m venv myenv
+source myenv/bin/activate  # Ative o ambiente virtual (Linux/macOS)
+``` 
+3. Para instalar todas as dependências listadas no arquivo `requirements.txt`, execute o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+```
+
+Isso garantirá que todas as bibliotecas e suas versões correspondentes sejam instaladas no ambiente virtual.
+
+#### Passo 4: Executando o Projeto
+
+Agora que todas as dependências estão instaladas no ambiente virtual, você pode executar o projeto de forma consistente em qualquer ambiente. Ative o ambiente virtual, navegue até a raiz do projeto e execute o código conforme necessário.
+
+```bash
+source myenv/bin/activate  # Ative o ambiente virtual (Linux/macOS)
+cd /caminho/para/seu/projeto
+python seu_script.py
+```
+
+Isso garante que seu projeto funcione com as versões específicas das bibliotecas listadas no `requirements.txt`, proporcionando uma experiência consistente para você e outros colaboradores.---
+
+Você pode criar um arquivo `utilizando_requirements.md` com essas informações e incluí-lo na documentação do seu projeto. Este guia ajudará a garantir que as dependências do seu projeto sejam gerenciadas de forma eficaz, facilitando o desenvolvimento e a colaboração.
 
 ## Ambiente Isolado
 
