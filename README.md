@@ -2,6 +2,25 @@
 
 # Conversor de PDF para MOBI
 
+<div style="display: flex; align-items: flex-start; align: center">
+  <tr>
+    </td>
+    <td align="center" width="35">
+      <a href="#macropower-tech">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="35" height="35" />
+      </a>
+    </td>
+    <td align="center" width="35">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="35" height="35" />
+    </td>
+    <td align="center" width="35">
+    	<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="35">
+    </td>
+  </tr>
+  <tr>
+  </tr>
+</div>
+
 ## Sumário
 
 - [Introdução](#introdução)
@@ -215,3 +234,5 @@ Este script realiza todas as etapas, desde a criação e ativação do ambiente 
 ```javascript
 Com estas adições, o `README.md` inclui instruções claras sobre como usar o projeto, incluindo a automação do processo com o script `run.sh`. Certifique-se de substituir `/caminho/para/seu/arquivo.pdf` pelo caminho real do arquivo PDF que deseja converter e `/caminho/para/seu/projeto/src` pelo caminho real do diretório do projeto.
 ```
+
+<a href="https://www.buymeacoffee.com/estevamsl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a> <img align="right" width=100px height=100px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif"/>
